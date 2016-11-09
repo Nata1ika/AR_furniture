@@ -71,6 +71,7 @@ public class ChooseController : MonoBehaviour
                 _element[i].Hide();
             }
         }
+        Show();
     }
 
     public void Show()
@@ -95,5 +96,5 @@ public class ChooseController : MonoBehaviour
     [SerializeField] GameObject[]   _obj;
 
     int _index = -1;
-    bool _show = true;
+    bool _show = false;
 }
